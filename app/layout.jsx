@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemesProvider";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const outfit = Outfit({ subsets: ["latin"] });
 
