@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import Review from "@/components/Review";
 import Services from "@/components/Services";
 import Work from "@/components/Work";
-import Cta from "@/components/cta";
+import Cta from "@/components/Cta";
 
 
 
