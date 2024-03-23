@@ -76,6 +76,30 @@ const projectData = [
     link: 'https://www.deviantart.com/neelasankar05/art/Facecream-1030612168',
     github: '',
   },
+  {
+    image: '/work/Headphone product design.png',
+    category: 'poster design',
+    name: 'Headphone Product Poster',
+    description: "🎧 Dive into the world of music with our sleek headphone poster design by @neela_webstudio! 🎨 Elevate your brand's image and captivate your audience.",
+    link: 'https://www.deviantart.com/neelasankar05/art/Headphone-product-design-1031947092',
+    github: '',
+  },
+  {
+    image: '/work/bakezilla.png',
+    category: 'frontend',
+    name: 'Bakezilla Bakery Website',
+    description: "Indulge your sweet tooth with Bakezilla’s mouthwatering treats 🍰🍪 Our single-page web app serves up irresistible goodies baked with love and HTML, CSS, and JavaScript magic.",
+    link: 'https://bakezilla.netlify.app',
+    github: 'https://github.com/neela-sankar/bakezilla_responsive_website',
+  },
+  {
+    image: '/work/pizazz.png',
+    category: 'next.js',
+    name: 'Bakezilla Bakery Website',
+    description: "Craving convenience? 🍕📱 Introducing our latest creation: a mobile-responsive pizza delivery website powered by Next.js 14 and React frontend UI.",
+    link: 'https://pizzazz-restaurant-fe.vercel.app/',
+    github: 'https://github.com/neela-sankar/pizzazz_restaurant_fe',
+  },
 ]
 
 //remove category duplicates
