@@ -18,7 +18,7 @@ import ProjectCard from '@/components/ProjectCard'
 const projectData = [
     {
         image: '/work/WW.png',
-        category: ['fullstack', 'next.js'],
+        category: 'next.js',
         name: 'Wallet Watch',
         description: "Managing your finances has never been easier! We are thrilled to launch our open-source expense tracker app, designed to help you keep track of your spending, budget effectively, and achieve your financial goals.",
         link: 'https://wallet-watch-ep.vercel.app/',
@@ -26,7 +26,7 @@ const projectData = [
     },
     {
         image: '/work/SRCS.png',
-        category: ['fullstack', 'next.js'],
+        category: 'fullstack',
         name: 'Sri Raghavendra Catering Services',
         description: "SRCS Partnered with us, we’re proud to showcase their new website. If you’re looking for a top-notch web design for your business, connect with us today! 🚀",
         link: 'https://sriraghavendra.in/',
@@ -79,7 +79,7 @@ const Work = () => {
                 </Link>
             </div>
             {/* slider */}
-            <div className="xl:max-w-[1000px] xl:absolute right-0 top-0 cursor-pointer">
+            <div className="xl:max-w-[1000px] xl:absolute right-0 top-0 cursor-grab">
                 <Swiper className="h-[480px]" slidesPerView={1} breakpoints={{
                     640:{
                         slidesPerView: 2,
