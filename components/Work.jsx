@@ -17,6 +17,30 @@ import ProjectCard from '@/components/ProjectCard'
 
 const projectData = [
     {
+        image: '/work/WW.png',
+        category: ['fullstack', 'next.js'],
+        name: 'Wallet Watch',
+        description: "Managing your finances has never been easier! We are thrilled to launch our open-source expense tracker app, designed to help you keep track of your spending, budget effectively, and achieve your financial goals.",
+        link: 'https://wallet-watch-ep.vercel.app/',
+        github: '',
+    },
+    {
+        image: '/work/SRCS.png',
+        category: ['fullstack', 'next.js'],
+        name: 'Sri Raghavendra Catering Services',
+        description: "SRCS Partnered with us, we’re proud to showcase their new website. If you’re looking for a top-notch web design for your business, connect with us today! 🚀",
+        link: 'https://sriraghavendra.in/',
+        github: '',
+    },
+    {
+        image: '/work/WX.png',
+        category: 'react js',
+        name: 'Walex Engineering Pvt. Ltd.',
+        description: "Thrilled to unveil their dynamic new landing website, designed with precision and passion.",
+        link: 'https://walex-engineering.netlify.app',
+        github: '',
+    },
+    {
         image: '/work/gadget.png',
         category: 'react js',
         name: 'Gadget Galaxy',
@@ -39,30 +63,6 @@ const projectData = [
         description: "Nike website using the cutting-edge styling framework, Tailwind CSS. This project showcases my expertise in front-end development and design, as I meticulously implemented Tailwind's utility-first approach to create a visually stunning and responsive user interface.",
         link: 'https://thunderous-kheer-e766bc.netlify.app/',
         github: 'https://github.com/neela-sankar/website-design-tailwindcss',
-    },
-    {
-        image: '/work/sushi.png',
-        category: 'react js',
-        name: 'Sushimania',
-        description: "Step into our digital sushi realm, where a captivating frontend unveils a visual feast of exquisite rolls and sashimi. Engage seamlessly, exploring the artistry of Japanese cuisine through our stunning interface, simplifying your dining experience with just a few clicks.",
-        link: 'https://sushimania-restaurant.netlify.app',
-        github: 'https://github.com/neela-sankar/sushi_restaurant_website_frontend',
-    },
-    {
-        image: '/work/velvet.png',
-        category: 'fullstack',
-        name: 'Velvet Vogue',
-        description: "Presenting VelvetVogue, a chic e-commerce platform where style meets convenience. Explore our curated collection, seamlessly add your favorites to the cart, and indulge in a hassle-free checkout experience to bring luxury fashion right to your doorstep.",
-        link: 'https://velvet-vogue.netlify.app',
-        github: 'https://github.com/neela-sankar/velvet_vogue_frontend',
-    },
-    {
-        image: '/work/portfolio.png',
-        category: 'next.js',
-        name: 'Personal Portfolio',
-        description: "Explore my portfolio projects crafted with Next.js and Tailwind CSS, powered by Sanity backend. Experience seamless performance and stunning design as I showcase my expertise in web development. Let's bring your ideas to life together.",
-        link: 'https://neela-portfolio.netlify.app',
-        github: 'https://github.com/neela-sankar/my_new_portfolio_2024',
     },
 ]
 
